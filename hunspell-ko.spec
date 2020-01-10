@@ -1,7 +1,7 @@
 Name: hunspell-ko
 Summary: Korean hunspell dictionaries
 Version: 0.5.5
-Release: 4%{?dist}
+Release: 5%{?dist}
 Source: http://spellcheck-ko.googlecode.com/files/hunspell-dict-ko-%{version}.tar.gz
 Group: Applications/Text
 URL: http://code.google.com/p/spellcheck-ko/
@@ -38,6 +38,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.5.5-5
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.5.5-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
